@@ -37,7 +37,7 @@ export const SignUp = () => {
       })
       .then(function (response) {
         console.log(response);
-        window.location.href="/login";
+        window.location.href="/";
       })
       .catch(function (error) {
         console.log(error);
